@@ -5,8 +5,8 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { getUsers, editUser } from '../Service/api';
 
 const initialValue = {
-    name: '',
-    username: '',
+    emp_name: '',
+    emp_desi: '',
     email: '',
     phone: ''
 }
