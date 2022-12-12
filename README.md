@@ -22,7 +22,7 @@
 
 
 
-[register-screenshot]:screenshots\Screenshot(1).png
-[login-screenshot]: screenshots\Screenshot(2).png
-[add-child]: screenshots\Screenshot(3).png
-[view-child]: screenshots\Screenshot(4).png
+[register-screenshot]:https://github.com/anualane/bootcamp-crud-app/blob/main/screenshots/Screenshot(1).png
+[login-screenshot]: https://github.com/anualane/bootcamp-crud-app/blob/main/screenshots/Screenshot(2).png
+[add-child]: https://github.com/anualane/bootcamp-crud-app/blob/main/screenshots/Screenshot(3).png
+[view-child]: https://github.com/anualane/bootcamp-crud-app/blob/main/screenshots/Screenshot(4).png
