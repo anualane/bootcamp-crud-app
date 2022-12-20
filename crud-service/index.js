@@ -20,6 +20,14 @@ app.use(cors());
 
 app.use('/', Routes);
 
+if (process.env.NODE_ENV == 'production') {
+    app.get('/', (req, res) => {
+        app.use(express.static(path.resolve(__dirname, 'crud-app', 'build')))
+        res.sendFile(path.resolve(__dirname, 'crud-app', 'build', 'index.html'))
+    })
+}
+
+
 const USERNAME = process.env.DB_USERNAME;
 const PASSWORD = process.env.DB_PASSWORD;
 
