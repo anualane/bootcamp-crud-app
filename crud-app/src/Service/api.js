@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // const usersUrl = 'http://localhost:3003/users';
 //const usersUrl = 'http://localhost:8080';
-const usersUrl = 'https://crud-app-backend.vercel.app';
+const usersUrl = 'https://bootcamp-crud-app-server.vercel.app/';
 
 
 
